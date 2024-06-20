@@ -4,5 +4,5 @@ services:
     ports:
       - "9090:80"
     volumes:
-      - ./img:/usr/share/nginx/html/img:ro
+      - ./clothes:/usr/share/nginx/html/img:ro
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
